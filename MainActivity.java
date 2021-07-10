@@ -198,4 +198,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         player1Turn = savedInstanceState.getBoolean("player1Turn");
 
     }
+
+    // to prevent game reset when press back button/ user navigate away from the app
+
+    public void onBackPressed() {
+        moveTaskToBack(false);
+    }
 }
