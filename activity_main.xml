@@ -18,6 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Player 1: 0"
+            android:layout_margin="5dp"
             android:textSize="30sp"
             android:freezesText="true"/>
 
@@ -27,6 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_p1"
             android:text="Player 2: 0"
+            android:layout_margin="5dp"
             android:textSize="30sp"
             android:freezesText="true"/>
 
@@ -39,7 +41,8 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="33dp"
             android:layout_marginRight="33dp"
-            android:text="reset" />
+            android:text="reset"
+            app:backgroundTint="#000000" />
 
     </RelativeLayout>
     <!--        here's the view of the game table where players put in x and o-->
@@ -53,25 +56,34 @@
                 android:id="@+id/button_00"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:freezesText="true"
                 android:textSize="60sp"
-                android:freezesText="true"/>
+                android:textColor="#000000"
+                app:backgroundTint="#54838383" />
 
             <Button
                 android:id="@+id/button_01"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:freezesText="true"
                 android:textSize="60sp"
-                android:freezesText="true"/>
+                android:textColor="#000000"
+                app:backgroundTint="#54838383" />
 
             <Button
                 android:id="@+id/button_02"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:freezesText="true"
                 android:textSize="60sp"
-                android:freezesText="true"/>
+                android:textColor="#000000"
+                app:backgroundTint="#54838383" />
 
         </LinearLayout>
 
@@ -84,25 +96,34 @@
                 android:id="@+id/button_10"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:freezesText="true"
                 android:textSize="60sp"
-                android:freezesText="true"/>
+                android:textColor="#000000"
+                app:backgroundTint="#54838383" />
 
             <Button
                 android:id="@+id/button_11"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:freezesText="true"
                 android:textSize="60sp"
-                android:freezesText="true"/>
+                android:textColor="#000000"
+                app:backgroundTint="#54838383" />
 
             <Button
                 android:id="@+id/button_12"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:freezesText="true"
                 android:textSize="60sp"
-                android:freezesText="true"/>
+                android:textColor="#000000"
+                app:backgroundTint="#54838383" />
 
         </LinearLayout>
 
@@ -115,25 +136,34 @@
                 android:id="@+id/button_20"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:freezesText="true"
                 android:textSize="60sp"
-                android:freezesText="true"/>
+                android:textColor="#000000"
+                app:backgroundTint="#54838383" />
 
             <Button
                 android:id="@+id/button_21"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:freezesText="true"
                 android:textSize="60sp"
-                android:freezesText="true"/>
+                android:textColor="#000000"
+                app:backgroundTint="#54838383" />
 
             <Button
                 android:id="@+id/button_22"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:freezesText="true"
                 android:textSize="60sp"
-                android:freezesText="true"/>
+                android:textColor="#000000"
+                app:backgroundTint="#54838383" />
 
         </LinearLayout>
 
